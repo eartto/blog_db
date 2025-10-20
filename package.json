@@ -1,0 +1,31 @@
+{
+  "name": "blog_db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migration:down": "node util/rollback.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eartto/blog_db.git"
+  },
+  "author": "eartto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eartto/blog_db/issues"
+  },
+  "homepage": "https://github.com/eartto/blog_db#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7",
+    "umzug": "^3.8.2"
+  }
+}
